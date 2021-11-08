@@ -51,3 +51,20 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+#ye{
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+}
+.bt{
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+
