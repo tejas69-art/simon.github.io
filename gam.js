@@ -16,7 +16,15 @@ $(document).keydown(function() {
       started = true;
     }
   });
+$(".bt").click(function(){
 
+  if (!started){
+    $("#level-title").text("Level " + level);
+      nextSequence();
+      started = true;
+
+  }
+});
 $(".btn").click(function (event) { 
     var userChosencolor = $(this).attr("id");
     userClickedPattern.push(userChosencolor);
